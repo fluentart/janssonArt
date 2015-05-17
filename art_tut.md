@@ -1,3 +1,5 @@
+Please note this is not the original. Please see [http://androidarts.com/art_tut.htm](http://androidarts.com/art_tut.htm)
+
 ## Art tutorial
 
 ### Foreword

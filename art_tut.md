@@ -108,7 +108,7 @@ When drawing from flat images it's easier for us to see proportions, alignments 
 
 Before laying down a stroke, there's a number of things you need to think about. Well, actually you shouldn't have to think about them, it should just go automatically.
 
-[![](tuts/layerpasses_t.jpg)](tuts/layerpasses.jpg)
+[![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/layerpasses_t.jpg)](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/layerpasses.jpg)
 
 *   Feel volume and angle of the form.
 *   Where is the light coming from?
@@ -128,13 +128,13 @@ There's really just one kind of light. It bounces. You can only see the light (p
 
 Note that all surfaces have speculars, because speculars is just reflected light. It's just more broken up/diluted on dull surfaces.
 
-![](tuts/speculars.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/speculars.jpg)
 
-![](tuts/disco.jpg)Depending on where the eye/beholder is, it'll see different light and different specular spots on a curved surface such as this. A puddle isn't curved (other than the edges because of surface tension) so you'll only get a shiny reflection from a certain point of view. Point speculars can only appear in an environment where there's a point light source, like a sun, lightbulb or small window.
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/disco.jpg)Depending on where the eye/beholder is, it'll see different light and different specular spots on a curved surface such as this. A puddle isn't curved (other than the edges because of surface tension) so you'll only get a shiny reflection from a certain point of view. Point speculars can only appear in an environment where there's a point light source, like a sun, lightbulb or small window.
 
 <div class="box">
 
-[Photo](tuts/cottonspecs.jpg) - Speculars do exist on cloth, diluted and subtle. I stretched out my shirt sleeve with two fingers to get a flat surface between the two marked dots (I moved the camera and not the sleeve).
+[Photo](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/cottonspecs.jpg) - Speculars do exist on cloth, diluted and subtle. I stretched out my shirt sleeve with two fingers to get a flat surface between the two marked dots (I moved the camera and not the sleeve).
 
 </div>
 
@@ -142,9 +142,9 @@ Here on earth we have lots of stuff around us that the light can bounce off, so 
 
 When light hits a surface and bounces, it also change color. If it hits another surface of the same color it bounced off, it will make that surface look even more saturated.
 
-![](tuts/radiosity.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/radiosity.jpg)
 
-![](tuts/warmcold.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/warmcold.jpg)
 
 (Too orange to be some sort of skintone anyways.)
 
@@ -170,13 +170,13 @@ Here's an example of various materials and how i render them.
 *   Glass - Often just transparent with distortion. The speculars come suddenly and are often white. In the case of car windows you might have noticed that it's easier ot see what's behind if there's a shadow over the window. The brighter reflections obscure.
 *   Wet stuff - more speculars, can become transparent in the case of cloth, and stones get more saturated and pronounced details.
 
-![](tuts/materials.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/materials.jpg)
 
 ### Shadows
 
 Shadows are quite flat and generally less saturated than the lit side. It's easier to notice ambient light in the shadows. Shadows get blury over distance, this is called diffraction.
 
-![](tuts/shadows.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/shadows.jpg)
 <small>(Shadows don't add (multiply) with just ONE lightsource that is...)</small>
 
 ### Skin tones
@@ -199,17 +199,17 @@ The human body has a lot of different hues. Parts covered by cloth gets less tan
 
 Some hues are due to ambient and reflected light. The shoulders and surfaces pointing up can get a blue hue because of the sky reflecting.
 
-![](tuts/middle.jpg)**Saturated gradients** - The gradients between the shadow and light is not just an in-between color of the shadow color and light color. If the shadow and light is just blended, it will look very lifeless. If you look at pictures you will see that the gradients is saturated. It's especially easy to notice if you remove that saturation.
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/middle.jpg)**Saturated gradients** - The gradients between the shadow and light is not just an in-between color of the shadow color and light color. If the shadow and light is just blended, it will look very lifeless. If you look at pictures you will see that the gradients is saturated. It's especially easy to notice if you remove that saturation.
 
-![](tuts/subsurf.jpg)**Sub-surface scattering** - Strong light can penetrate the surface of some materials and bounce around, then exit again. This will increase the saturation and make the surface look illuminated from the inside. In the case with human skin, we sometimes see it on hard edges between light and shadow.
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/subsurf.jpg)**Sub-surface scattering** - Strong light can penetrate the surface of some materials and bounce around, then exit again. This will increase the saturation and make the surface look illuminated from the inside. In the case with human skin, we sometimes see it on hard edges between light and shadow.
 
 <div class="box">
 
-[Photo](tuts/leafbottom.jpg) - Leafs are gloss on the top side which means there can sometimes be a sky blue specular here. The light shining thru the leaf makes the bottom side more saturated, this is also true for ears and fingers, which can turn super red when heavily backlit.
+[Photo](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/leafbottom.jpg) - Leafs are gloss on the top side which means there can sometimes be a sky blue specular here. The light shining thru the leaf makes the bottom side more saturated, this is also true for ears and fingers, which can turn super red when heavily backlit.
 
-[Photo](tuts/hand.jpg) - Sub-surface scattering on the fingertips. The light on the left side of the thumb is probably light reflected off the index finger.
+[Photo](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/hand.jpg) - Sub-surface scattering on the fingertips. The light on the left side of the thumb is probably light reflected off the index finger.
 
-[Photo](tuts/hand2.jpg) - Note that the edge only appear if the light is overexposed. It does not appear as pronounced on the thumb.
+[Photo](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/hand2.jpg) - Note that the edge only appear if the light is overexposed. It does not appear as pronounced on the thumb.
 
 </div>
 
@@ -219,17 +219,17 @@ Colors and values are relative. By using various tricks it's possible to trick t
 
 A hard edge between two values will be much more obvious than a soft one. You'll have to know when to use which. Sometimes your choice of values is very limited, such as when you're working in the shadow. By using hard edges you can describe a lot more detail with less values available. However, using gradients is very useful for changing value without the viewer noticing. The 'fake flat' illustration looks flat, but is actually a gradient. The square is the same color as the left side of the 'flat' rectangle.
 
-![](tuts/relvalue.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/relvalue.jpg)
 
 Colors with the same value are relative in terms of hue instead. A common mistake is to draw one detail too saturated, then something else nearby looks grey, so to compensate you increase saturation on that detail too, and as a result the whole painting end up too saturated.
 
-![](tuts/relcolor.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/relcolor.jpg)
 
 ### Color identity
 
 It's easy to get carried away and go over the top with highlights. This makes it hard to see what color the subject is. Instead you should use shadows to describe the volume of the subject.
 
-![](tuts/colorident.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/colorident.jpg)
 
 ### Flatten and simplify
 
@@ -237,9 +237,9 @@ Work with larger brushes and remove unnecessary brushstrokes. See the bad and be
 
 <center>
 
-![](tuts/bad.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/bad.jpg)
 
-![](tuts/better.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/better.jpg)
 
 </center>
 
@@ -249,18 +249,18 @@ A painting is a hierarchy of important and less important details. If you're doi
 
 If you use the same rendering everywhere on the painting it will look flat. You can lead the eye toward important spots, but once the eye is there it needs something interesting to keep it there, like proper details. The amount of details on a spot should be proportional to the amount of time the eye stays there.
 
-![](tuts/focuspoint.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/focuspoint.jpg)
 <small>Attempt to isolate some of the techniques you can use to attract the eye.</small>
 
 <div class="box">
 
-Here's an example I made: [(A) Important forms](tuts/volume.jpg) | [(B) Textue](tuts/organic3c.jpg) | [(C) Both](tuts/organic3c2.jpg)
+Here's an example I made: [(A) Important forms](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/volume.jpg) | [(B) Textue](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/organic3c.jpg) | [(C) Both](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/organic3c2.jpg)
 
 </div>
 
 It can be very dangerous to get excited about rendering details, especially at an early stage. You can not render details the same way in the shadow as in the light. On the second one (B) I just rendered all the details to demonstrate how it can look if you just scribble down all the detail without thinking about the important forms (A). (C) is still a bit confusing but that's more of a construction issue. Side views can only get you so far, and the anatomy is pretty odd which makes it harder to read.
 
-![](tuts/noise.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/noise.jpg)
 
 A is the form without detail, B is the detail and C is both. Be careful not to do too much B, the form has to read!
 
@@ -268,11 +268,11 @@ A is the form without detail, B is the detail and C is both. Be careful not to d
 
 I'm not going to have a long perspective tutorial here. Instead I'm just going to mention how much easier it gets if you make a few guide lines to align the figure/environment after as you draw.
 
-![](tuts/perspective.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/perspective.jpg)
 
 If you're reluctant to do environments just because perspective is tedious to set up, you can use a simple 2 point perspective and just guess in the details. It's surprising how much easier it is to align things correctly with a few guide lines (for me anyways). It doesn't have to be perfect to appear correct. There's a risk that your designs will suffer if you can't improvise quickly and have to consult the ruler every other stroke. First draw a horizon line, then radiate lines from both ends in a random manner, then just crop and sketch away.
 
-![](tuts/construct.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/construct.jpg)
 
 Here's a few quick freehand lines helping me to align the shoulders and stuff. When drawing people, it can help to align stuff after a 'spine'.
 
@@ -301,15 +301,15 @@ Also, you do not always need to draw a line. Sometimes it you can just hint the 
 
 Finally, here are a few illustrations. The first one is Photoshop (5.5) + Wacom tablet and there is no line quality to speak of, but I hope you get the idea. Second one is an inked thing from a few years ago.
 
-![](tuts/tutlineart.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/tutlineart.jpg)
 
 When painting, subractive edges which are remnants from the line art or construction stage can be harmful. You can separate shapes with other means than black lines, such as different value, or a bright line. Here's an illustration of a few possible solutions and what they convey.
 
-![](tuts/meeting_edge.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/meeting_edge.jpg)
 
 A line art image might go several stages of refinenement where previous, rougher stages, are constantly faded and painted over. Final stage not completed here.
 
-![](tuts/build2.jpg)
+![](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/build2.jpg)
 
 ### Studies
 
@@ -323,7 +323,7 @@ Try to learn one thing at a time. You can't learn juggling while also practicing
 
 <div class="box">
 
-[1](tuts/practice1.jpg) - [2](tuts/practice2.jpg) - Some older study sheets made from a comic (poses) and photos (faces).
+[1](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/practice1.jpg) - [2](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/practice2.jpg) - Some older study sheets made from a comic (poses) and photos (faces).
 
 </div>
 
@@ -331,13 +331,13 @@ Try to learn one thing at a time. You can't learn juggling while also practicing
 
 <div class="box">
 
-Statue study: [1](tuts/first-copy.jpg) | [2](tuts/statue-copy.jpg) - First one is OC (Open Canvas), second is PS (PhotoShop).
+Statue study: [1](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/first-copy.jpg) | [2](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/statue-copy.jpg) - First one is OC (Open Canvas), second is PS (PhotoShop).
 
-[1a -> 1b](tuts/leg.jpg) | [2](tuts/leg2.jpg) - Here I tried to be as economical as possible. Second one isn't a study but an example of a cleanup, which isn't necessary for studies.
+[1a -> 1b](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/leg.jpg) | [2](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/leg2.jpg) - Here I tried to be as economical as possible. Second one isn't a study but an example of a cleanup, which isn't necessary for studies.
 
-[1](tuts/backgirl.jpg) | [2](tuts/buttgirl.jpg) - These are made from reference. I took the liberty to add some line art and style.
+[1](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/backgirl.jpg) | [2](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/buttgirl.jpg) - These are made from reference. I took the liberty to add some line art and style.
 
-[1](tuts/color2.jpg) - One of my first studies.
+[1](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/color2.jpg) - One of my first studies.
 
 </div>
 
@@ -417,7 +417,7 @@ You must also accept that just because you have worked on something for a while 
 Very generally speaking, certain apects of a painting are more important than other.
 
 1.  **Construction** - What are you trying to paint? Your subject and composition should work on a fundamental level. If not, then no rendering in the world can save it. Don't have any illusions that you will be able to salvage the piece later. If a pose look wrong now, it will look stiff when finished too, even if Rembrandt himself painted it.
-2.  **Values** - For a painting to work you need to use values to sculpt the forms. Values can do a lot of work grouping and separating shapes. [Example 1](tuts/value1.jpg) - The first version here is obviously wrong. Each shape has just gotten the shadow and highlight treatment. Second one is better but there's just one value type. Third one has different values on different shapes. Maybe it fails at the construction step though; it's not a very interesting pinup. [Example 2](tuts/separation.jpg) Here both value and color is used to separate the foreground and background, although I don't like this painting either, again it fails at construction.
+2.  **Values** - For a painting to work you need to use values to sculpt the forms. Values can do a lot of work grouping and separating shapes. [Example 1](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/value1.jpg) - The first version here is obviously wrong. Each shape has just gotten the shadow and highlight treatment. Second one is better but there's just one value type. Third one has different values on different shapes. Maybe it fails at the construction step though; it's not a very interesting pinup. [Example 2](https://raw.githubusercontent.com/fluentart/janssonArt/master/images/separation.jpg) Here both value and color is used to separate the foreground and background, although I don't like this painting either, again it fails at construction.
 3.  **Color** - You can be a little off with the colors (hue and saturation) and still get away with it. If you just can't make the colors work, it is probably the values that are wrong. On a side note, if the previous steps do work, it's easy to make fresh looking images with color balance tools. In my experience the original choice is often the best.
 
 ### Critique and common mistakes
